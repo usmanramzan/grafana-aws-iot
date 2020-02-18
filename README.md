@@ -1,2 +1,6 @@
 # grafana-aws-iot
-This Repository contains all the necessary details and resources required for setting up Grafana Dashboard for monitoring data from AWS IoT Core
+### Instructions
+
+- Use the following https://devconnected.com/how-to-install-grafana-on-ubuntu-18-04/ to install Grafana on Ubuntu. 
+- Use the *IoT_Pub.py* file for publishing data to AWS IoT Core
+- Use the *grafana-sub.py* for subscribing the data from AWS IoT Core.
